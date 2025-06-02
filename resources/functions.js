@@ -272,9 +272,29 @@ const INDEX_DATA = {
     'GNDVI': {
         name: "GNDVI",
         dates: [
-            { day: 14, month: 9, year: 2024, info: "GNDVI - Baixa atividade fotossintética" },
-            { day: 29, month: 9, year: 2024, info: "GNDVI - Atividade fotossintética moderada" },
-            { day: 4, month: 10, year: 2024, info: "GNDVI - Alta atividade fotossintética" }
+            { day: 14, month: 9, year: 2024, info: "GNDVI" },
+            { day: 29, month: 9, year: 2024, info: "GNDVI" },
+            { day: 4, month: 10, year: 2024, info: "GNDVI" },
+            { day: 19, month: 10, year: 2024, info: "GNDVI" },
+            { day: 29, month: 10, year: 2024, info: "GNDVI" },
+            // Novembro 2024
+            { day: 13, month: 11, year: 2024, info: "GNDVI" },
+            // Dezembro 2024
+            { day: 18, month: 12, year: 2024, info: "GNDVI" },
+            { day: 23, month: 12, year: 2024, info: "GNDVI" },
+            { day: 28, month: 12, year: 2024, info: "GNDVI" },
+            // Janeiro 2025
+            { day: 2, month: 1, year: 2025, info: "GNDVI" },
+            { day: 7, month: 1, year: 2025, info: "GNDVI" },
+            { day: 12, month: 1, year: 2025, info: "GNDVI" },
+            { day: 17, month: 1, year: 2025, info: "GNDVI" },
+            { day: 22, month: 1, year: 2025, info: "GNDVI" },
+            // Fevereiro 2025
+            { day: 1, month: 2, year: 2025, info: "GNDVI" },
+            { day: 11, month: 2, year: 2025, info: "GNDVI" },
+            { day: 21, month: 2, year: 2025, info: "GNDVI" },
+            { day: 26, month: 2, year: 2025, info: "GNDVI" }
+
         ],
         legend: {
             title: "Índice GNDVI",
@@ -290,9 +310,25 @@ const INDEX_DATA = {
     'NDMI': {
         name: "NDMI",
         dates: [
-            { day: 14, month: 9, year: 2024, info: "NDMI - Baixo conteúdo de água" },
-            { day: 29, month: 9, year: 2024, info: "NDMI - Conteúdo de água moderado" },
-            { day: 4, month: 10, year: 2024, info: "NDMI - Alto conteúdo de água" }
+            { day: 14, month: 9, year: 2024, info: "NDMI" },
+            { day: 29, month: 9, year: 2024, info: "NDMI" },
+            { day: 19, month: 10, year: 2024, info: "NDMI" },
+            { day: 29, month: 10, year: 2024, info: "NDMI" },
+            { day: 29, month: 10, year: 2024, info: "NDMI" },
+            { day: 13, month: 11, year: 2024, info: "NDMI" },
+            { day: 18, month: 12, year: 2024, info: "NDMI" },
+            { day: 23, month: 12, year: 2024, info: "NDMI" },
+            { day: 28, month: 12, year: 2024, info: "NDMI" },
+            { day: 2, month: 1, year: 2025, info: "NDMI" },
+            { day: 7, month: 1, year: 2025, info: "NDMI" },
+            { day: 12, month: 1, year: 2025, info: "NDMI" },
+            { day: 17, month: 1, year: 2025, info: "NDMI" },
+            { day: 22, month: 1, year: 2025, info: "NDMI" },
+            { day: 1, month: 2, year: 2025, info: "NDMI" },
+            { day: 11, month: 2, year: 2025, info: "NDMI" },
+            { day: 21, month: 2, year: 2025, info: "NDMI" },
+            { day: 26, month: 2, year: 2025, info: "NDMI" },
+            { day: 4, month: 10, year: 2024, info: "NDMI" }
         ],
         legend: {
             title: "Índice NDMI",
@@ -308,9 +344,24 @@ const INDEX_DATA = {
     'SAVI': {
         name: "SAVI",
         dates: [
-            { day: 14, month: 9, year: 2024, info: "SAVI - Baixa correção de solo" },
-            { day: 29, month: 9, year: 2024, info: "SAVI - Correção moderada" },
-            { day: 4, month: 10, year: 2024, info: "SAVI - Alta correção de solo" }
+            { day: 14, month: 9, year: 2024, info: "SAVI" },
+            { day: 29, month: 9, year: 2024, info: "SAVI" },
+            { day: 19, month: 10, year: 2024, info: "SAVI" },
+            { day: 29, month: 10, year: 2024, info: "SAVI" },
+            { day: 13, month: 11, year: 2024, info: "SAVI" },
+            { day: 18, month: 12, year: 2024, info: "SAVI" },
+            { day: 23, month: 12, year: 2024, info: "SAVI" },
+            { day: 28, month: 12, year: 2024, info: "SAVI" },
+            { day: 2, month: 1, year: 2025, info: "SAVI" },
+            { day: 7, month: 1, year: 2025, info: "SAVI" },
+            { day: 12, month: 1, year: 2025, info: "SAVI" },
+            { day: 17, month: 1, year: 2025, info: "SAVI" },
+            { day: 22, month: 1, year: 2025, info: "SAVI" },
+            { day: 1, month: 2, year: 2025, info: "SAVI" },
+            { day: 11, month: 2, year: 2025, info: "SAVI" },
+            { day: 21, month: 2, year: 2025, info: "SAVI" },
+            { day: 26, month: 2, year: 2025, info: "SAVI" },
+            { day: 4, month: 10, year: 2024, info: "SAVI" }
         ],
         legend: {
             title: "Índice SAVI",
@@ -326,9 +377,24 @@ const INDEX_DATA = {
     'EVI': {
         name: "EVI",
         dates: [
-            { day: 14, month: 9, year: 2024, info: "EVI - Baixa biomassa" },
-            { day: 29, month: 9, year: 2024, info: "EVI - Biomassa moderada" },
-            { day: 4, month: 10, year: 2024, info: "EVI - Alta biomassa" }
+            { day: 14, month: 9, year: 2024, info: "EVI" },
+            { day: 29, month: 9, year: 2024, info: "EVI" },
+            { day: 19, month: 10, year: 2024, info: "EVI" },
+            { day: 29, month: 10, year: 2024, info: "EVI" },
+            { day: 13, month: 11, year: 2024, info: "EVI" },
+            { day: 18, month: 12, year: 2024, info: "EVI" },
+            { day: 23, month: 12, year: 2024, info: "EVI" },
+            { day: 28, month: 12, year: 2024, info: "EVI" },
+            { day: 2, month: 1, year: 2025, info: "EVI" },
+            { day: 7, month: 1, year: 2025, info: "EVI" },
+            { day: 12, month: 1, year: 2025, info: "EVI" },
+            { day: 17, month: 1, year: 2025, info: "EVI" },
+            { day: 22, month: 1, year: 2025, info: "EVI" },
+            { day: 1, month: 2, year: 2025, info: "EVI" },
+            { day: 11, month: 2, year: 2025, info: "EVI" },
+            { day: 21, month: 2, year: 2025, info: "EVI" },
+            { day: 26, month: 2, year: 2025, info: "EVI" },
+            { day: 4, month: 10, year: 2024, info: "EVI" }
         ],
         legend: {
             title: "Índice EVI",

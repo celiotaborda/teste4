@@ -69,7 +69,7 @@ window.fileIndices = {
 };
 
 // Criar grupos apenas para NDRE e NDVI
-const indices = ['NDRE', 'NDVI'];
+const indices = ['NDRE', 'NDVI', 'GNDVI', 'NDMI', 'SAVI', 'EVI'];
 const groups = {};
 
 indices.forEach(type => {
@@ -83,7 +83,7 @@ indices.forEach(type => {
 // Função para criar uma camada
 function createLayer(type, date) {
     // Verifica se o tipo é válido (apenas NDRE e NDVI)
-    if (!['NDRE', 'NDVI'].includes(type)) {
+    if (!indices.includes(type)) {
         console.log(`Tipo de índice não suportado: ${type}`);
         return null;
     }
